@@ -8,8 +8,9 @@ This simple Arduino library adds a capability to decode Temperature/Humidity dat
 ## Use
 SRX882 superheterodyne receiver module is recommended for this setup. It allows to obtain a reliable signal with minimum noise from its DATA pin (pin #5).
 
-The project includes a PlatformIO config file example for Wemos D1 mini ESP8266 board and an example sketch that prints the sensor temperature/humidity data using provided library. It is required to specify a GPIO pin number connected to the receiver.
+The project includes a PlatformIO config file example for Wemos D1 mini ESP8266 board and an example sketch that prints the sensor temperature/humidity data using provided library. It is required to specify a GPIO pin number connected to the 433.92 MHz receiver.
 
+More detailed example of the use of this Arduino library can be found in the project [Tasmota Nexus 433 MHz to MQTT Gateway for Home Assistant](https://github.com/phpcoder/tasmota-nexus-mqtt).
 
 
 
